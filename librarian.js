@@ -10,6 +10,7 @@ var library = [
 /* Task 1 */
 function getBookTitle( index ){
   //add code
+  return library[index].title;
 }
 
 console.log(getBookTitle(3));
@@ -17,16 +18,22 @@ console.log(getBookTitle(3));
 /* Task 3 */
 function addBook( book ){
   //add code
+  library.push(book);
+  return library;
 }
 
-var newBook = {};
+var newBook = {
+  title: "Harry Potter and the Philosopher's Stone",
+  year: "1997",
+  author: "J.K.Rowling",
+  publisher: "Bloomsbury"
+};
 console.log(addBook(newBook));
 
 /* Task 4 */
 function bookByAuthor(){
   //add code
 }
-
 console.log(bookByAuthor());
 
 /* Task 5 */
