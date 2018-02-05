@@ -32,6 +32,7 @@ console.log(addBook(newBook));
 
 /* Task 4 */
 function bookByAuthor(){
+
   //add code
 }
 console.log(bookByAuthor());
