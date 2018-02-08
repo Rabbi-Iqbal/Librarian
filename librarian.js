@@ -54,6 +54,13 @@ console.log(bookByAuthor());
 /* Task 5 */
 function findByTitle( title ){
   //add code
+  var searchedLibrary = [];
+  for (var i=0 ; i<library.length; i++){
+    if(library[i].title.toLowerCase().includes(title)){
+    searchedLibrary.push(library[i]);
+    }
+  }
+  return searchedLibrary;
 }
 
 console.log(findByTitle("man"));
