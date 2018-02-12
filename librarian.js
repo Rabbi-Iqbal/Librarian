@@ -10,7 +10,6 @@ var library = [
 
 /* Task 1 */
 function getBookTitle( index ){
-  //add code
   return library[index].title;
 }
 
@@ -18,7 +17,6 @@ console.log(getBookTitle(3));
 
 /* Task 3 */
 function addBook( book ){
-  //add code
   library.push(book);
   return library;
 }
@@ -53,7 +51,6 @@ console.log(bookByAuthor());
 
 /* Task 5 */
 function findByTitle( title ){
-  //add code
   var searchedLibrary = [];
   for (var i=0 ; i<library.length; i++){
     if(library[i].title.toLowerCase().includes(title)){
